@@ -1,1 +1,2 @@
 # HopeHacks
+we got this
