@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #333;
+    background:#333;
     color: #fff;
     font-size: 1.1em;
     line-height: 1.5;
@@ -53,8 +53,7 @@ body {
   
   #showcase .bg-image {
     position: absolute;
-    background: #333
-      url("https://wallpaperaccess.com/full/1467776.jpg");
+    background: url(HopeHacks/images/background1.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
