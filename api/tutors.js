@@ -10,19 +10,17 @@ router.get('/', function (req, res) {
     fs.readFile(tutor_file, 'utf-8', (e, content) => {
         let listOfTutors = JSON.parse(content);
         res.send(listOfTutors);
+
     })
 })
 
 // Endpoint is to search tutors by zip code (route parameter)
-router.get('/search/zipcode/:zipcode', function (req, res) {
+router.get('/search/zipcode/:zipcode', (req, res) => {
     fs.readFile(tutor_file, 'utf-8', (e, content) => {
-        let listOfTutors = JSON.parse(content);
-        let zipCode = req.params.zipcode;
-        let filteredList = [];
-        listOfTutors.forEach(function (item, index) {
-            if (item.zipCode === zipCode) {
-                filteredList.push(item);
-            }
+        const listOfTutors = JSON.parse(content);
+        const zipCode = req.params.zipcode;
+        const filteredList = listOfTutors.filter((item, index) => {
+            return (item.zipCode === zipCode)
         });
         res.send(filteredList);
     })
