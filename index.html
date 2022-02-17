@@ -7,14 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutor Scout</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <nav>
+  <div class="nav-links">
     <ul>
-        <li><a href = "#showcase">Home</a></li>
-        <li><a href = "#section-a">About Us</a></li>
-        <li><a href = "#section-c">Contact</a></li>
-       
+    <li><a href="index.html">Home</a></li>
+    <li><a href="api.html">Tutor Finder</a></li>
+    <li><a href = "#section-a">About Us</a></li>
+    <li><a href="contact.html">Contact</a></li>
     </ul>
+  </div> 
+  <button id = "find-me">Show my location</button><br/>
+  <p id = "status"></p>
+  <a id = "map-link" target="_blank"></a>
 </nav>
 <!-- Header Showcase -->
 <header id="showcase" class="grid">
@@ -97,9 +103,35 @@
   <!-- Footer -->
   <footer id="main-footer" class="grid">
     <div>Tutor $cout</div>
+    <footer>
+      <p class="footer1">Copyright &copy; 2022, Tutor $cout</p>
+  
+      <aside>
+        <a class="social" href="https://twitter.com/?lang=en"  target="_blank" aria-label="Twitter" rel="noopener">
+          <span class="fa-stack fa-1x sizeup">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x"></i>
+          </span>
+        </a>
+  
+        <a class="social" href="https://www.facebook.com/"  target="_blank" aria-label="Facebook" rel="noopener">
+          <span class="fa-stack fa-1x sizeup">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x"></i>
+          </span>
+        </a>
+  
+        <a class="social" href="https://www.instagram.com/"  target="_blank" aria-label="Instagram" rel="noopener">
+         <span class="fa-stack fa-1x sizeup">
+            <i class="fa fa-circle-thin fa-stack-2x"></i>
+            <i class="fa fa-instagram fa-stack-1x"></i>
+          </span>
+        </a>
+      </aside>
+  
+    </footer>
   </footer>
-  <script>
-    src = "/.scipt.js"
+  <script src="script.js">
 </script>
 </body>
 
