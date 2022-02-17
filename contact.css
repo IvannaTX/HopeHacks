@@ -1,33 +1,36 @@
-*{
-  margin:0px;
-  padding:0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* Navigation Bar */
 
-nav{
+nav {
   margin-left: auto;
   padding: 1% 3%;
-  }
+}
 
-.nav-links{
+.nav-links {
   flex: 1;
   text-align: right;
 }
-.nav-links ul li{
+
+.nav-links ul li {
   list-style: none;
   display: inline-block;
   padding: 0.67vw 1vw;
-  position: relative 
+  position: relative
 }
-.nav-links ul li a{
+
+.nav-links ul li a {
   color: black;
   text-decoration: none;
   font-size: 2vw;
   font-weight: bold;
-  font-family:"raleway";
+  font-family: "raleway";
 }
-.nav-links ul li::after{
+
+.nav-links ul li::after {
   content: '';
   width: 0%;
   height: 0.167vw;
@@ -36,45 +39,47 @@ nav{
   margin: auto;
   transition: 0.5s;
 }
-.nav-links ul li:hover::after{
-width: 100%;
+
+.nav-links ul li:hover::after {
+  width: 100%;
 }
 
 /* background image */
-body{
-background-image: url("img/background2.jpg");
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
- min-height: 100vh;
- max-width: 100vw;
+body {
+  background-image: url("img/background2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  max-width: 100vw;
 }
 
 /* Contact information */
-p{
+p {
   color: gray;
   padding: 6px;
-  margin: 3px; 
+  margin: 3px;
 }
 
-h1{
+h1 {
+  color: black;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-weight: 1px;
+  font-size: 36pt;
+}
+
+h2 {
   color: black;
   text-align: center;
   font-family: "raleway";
-  font-weight:1px;
-  font-size:36pt;
-}
-
-h2{
-  color: black;
-  text-align: center;
-  font-family: "raleway"; 
   font-size: 14pt;
 }
 
 /* Contact Form */
 
-input[type=text],textarea{
+input[type=text],
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -85,20 +90,20 @@ input[type=text],textarea{
   resize: vertical;
 }
 
-#comments{
-height:160px; 
-width: 100%; 
-padding: 12px;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-margin-top: 6px;
-margin-bottom: 16px;
-resize: vertical;
+#comments {
+  height: 160px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 input[type=submit] {
-  background-color:white;
+  background-color: white;
   color: #000000;
   font-weight: bold;
   padding: 12px 20px;
@@ -111,64 +116,58 @@ input[type=submit]:hover {
   background-color: rgb(159, 207, 247);
 }
 
-.contact{
-  background-color:#050505b0;
+.contact {
+  background-color: #050505b0;
   opacity: 0.8;
   padding: 20px;
   width: 50%;
   margin: auto;
   margin-top: 2%;
-  font-family:"raleway";
+  font-family: "raleway";
   font-weight: 3px;
-  color:white;
+  color: white;
   border-radius: 30px;
 }
 
 /* Footer   */
-footer{
-display: flex;
-padding: 2vw;
-padding-right: 2.5vw;
-padding-bottom: 1vh;
-margin-top: auto;
+footer {
+  display: flex;
+  padding: 2vw;
+  padding-right: 2.5vw;
+  padding-bottom: 1vh;
+  margin-top: auto;
 }
 
-aside
-{
-margin-left: auto;
-order: 2;
+aside {
+  margin-left: auto;
+  order: 2;
 }
 
-.social
-{
-color: black;
-padding: 1.5vw;
-text-decoration: none;
-font-size: 2vw;
+.social {
+  color: black;
+  padding: 1.5vw;
+  text-decoration: none;
+  font-size: 2vw;
 }
 
-.social:hover
-{
-opacity: 0.5;
+.social:hover {
+  opacity: 0.5;
 }
 
-i.fa-circle-thin
-{
--webkit-text-stroke-color: black;
--webkit-text-stroke-width:0.01px;
-paint-order: stroke;
+i.fa-circle-thin {
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.01px;
+  paint-order: stroke;
 }
 
-.footer1{
-display: flex;
-align-items: center;
-color: black;
-font-family:'raleway' ;
-font-size: 1.5vw;
-font-weight:bolder;
+.footer1 {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-family: 'raleway';
+  font-size: 1.5vw;
+  font-weight: bolder;
 }
 
 /* Media query's */
-@media only screen and (max-width: 800px) {
-
-}
+@media only screen and (max-width: 800px) {}
