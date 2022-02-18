@@ -14,7 +14,6 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
 /* Navigation Bar */
 
 nav {
@@ -69,7 +68,7 @@ h1,
 h2 {
   margin: 0;
   padding: 1em 0;
-  font-family: 'Pacifico', cursive;
+  font-family: "raleway";
   font-size: 50px;
 }
 
