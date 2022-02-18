@@ -14,6 +14,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/bria
 /* Navigation Bar */
 
 nav {
@@ -68,7 +72,11 @@ h1,
 h2 {
   margin: 0;
   padding: 1em 0;
+<<<<<<< HEAD
   font-family: "raleway";
+=======
+  font-family: 'Pacifico', cursive;
+>>>>>>> origin/bria
   font-size: 50px;
 }
 
