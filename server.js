@@ -9,4 +9,3 @@ app.listen(5000,() => {
     console.log(`Example app listening at http://localhost:${port}`)
 
 });
-//Tutor Objects here

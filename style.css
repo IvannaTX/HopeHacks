@@ -76,8 +76,12 @@ h2 {
   font-family: "raleway";
 =======
   font-family: 'Pacifico', cursive;
+<<<<<<< HEAD
 >>>>>>> origin/bria
   font-size: 50px;
+=======
+  font-size: 35px;
+>>>>>>> origin/bria
 }
 
 h3 {
@@ -91,7 +95,9 @@ p {
   padding: 1em 0;
 
 }
-
+.main-title{
+  font-size: 90px;;
+}
 .btn {
   display: inline-block;
   background: #333;
@@ -157,6 +163,7 @@ p {
   background-color: #E3E9A3;
 }
 
+
 #section-b ul {
   list-style: none;
   margin: 0;
@@ -196,11 +203,19 @@ p {
 }
 
 #section-d .box:first-child {
-  background: #2690d4;
+  background: #333;
 }
-
-/* Footer */
-
+#section-d a{
+  color:#E3E9A3;
+  text-decoration:none;
+}
+#section-d a:hover{
+  color:#fff;
+  text-decoration:none;
+}
+.box a{
+  color:#fff;
+}
 
 
 /* Media Queries */
@@ -212,7 +227,6 @@ p {
   }
 
   #section-a .content-text {
-
     column-gap: 2em;
   }
 
@@ -223,6 +237,7 @@ p {
   .content-wrap,
   #section-b ul {
     grid-column: 2/4;
+    
 
   }
 
@@ -243,9 +258,10 @@ p {
     width: 50%;
     padding: 10px;
     margin: 10px;
-    border: 2px solid #ccc;
+    border: 2px solid #333;
     border-radius: 20px;
   }
+
 
   .whyTitle {
     color: #333;
@@ -268,7 +284,6 @@ p {
   columns: 4;
   column-gap: 2em;
   font-size: 10px;
-  ;
   padding: 0;
   margin: 0;
   text-align: left;
@@ -312,4 +327,5 @@ i.fa-circle-thin {
   font-family: 'raleway';
   font-size: 1.5vw;
   font-weight: bolder;
+  
 }
