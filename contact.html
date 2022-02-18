@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="contact.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/handlebars/4.7.7/handlebars.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Pavanam&family=Raleway:wght@100&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
@@ -23,7 +25,7 @@
     <div class="nav-links">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="api.html">Tutor Finder</a></li>
+        <li><a href="googleapi.html">Tutor Finder</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
@@ -40,24 +42,22 @@
 
   <!-- Contact Page form -->
   <div class="contact">
-    <form>
+    <form id="myForm" class ="form">
       <label>FIRST NAME</label>
-      <input type="text" name="firstname" placeholder="Jane">
+      <input type="text" name="firstname" placeholder="Jane" required>
 
       <label>LAST NAME</label>
-      <input type="text" name="lastname" placeholder="Doe">
+      <input type="text" name="lastname" placeholder="Doe" required>
 
       <label>E-MAIL</label>
-      <input type="text" name="email" placeholder="janedoe@email.com">
+      <input type="text" name="email" placeholder="janedoe@email.com" required>
 
       <label for="comments">COMMENTS</label>
       <textarea id="comments" name="comments" rows="5" cols="33"></textarea>
-
       <input type="submit" value="SUBMIT">
+      
     </form>
   </div>
-
-
   <br>
   <br>
   <br>
