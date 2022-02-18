@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 console.log('this is the script file')
 
 if(navigator.geolocation) {
@@ -20,5 +19,3 @@ if(navigator.geolocation) {
 //  region: AWS.config.region || "<region>"
 // });
 // console.log(await client.getMapStyleDescriptor("ExampleMap").promise());
-=======
->>>>>>> origin/bria

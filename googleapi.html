@@ -1,16 +1,10 @@
 <!--
   Copyright 2021 Google LLC
-<<<<<<< HEAD
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at
 
-=======
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
->>>>>>> origin/bria
       https://www.apache.org/licenses/LICENSE-2.0
 
   Unless required by applicable law or agreed to in writing, software
@@ -28,15 +22,6 @@
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/handlebars/4.7.7/handlebars.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<<<<<<< HEAD
-=======
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pavanam&family=Raleway:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
->>>>>>> origin/bria
     <style>
       html,
       body {
@@ -220,7 +205,6 @@
 
       #locations-panel-list .location-result h2.name {
         font-size: 1em;
-<<<<<<< HEAD
         font-weight: 800;
         margin: 0;
       }
@@ -240,11 +224,6 @@
         margin-bottom: 0em;
         font-weight: 500;
       }
-=======
-        font-weight: 500;
-        margin: 0;
-      }
->>>>>>> origin/bria
 
       #locations-panel-list .location-result .address {
         font-size: 0.9em;
@@ -265,25 +244,6 @@
         margin: 0;
         padding: 0;
       }
-<<<<<<< HEAD
-=======
-      #locations-panel-list .location-result p.dept {
-        font-size: 0.9em;
-        font-weight: 500;
-        font-style: italic;
-        margin: 0;
-      }
-      #locations-panel-list .location-result p.email{
-        font-size: 0.9em;
-        font-weight: 500;
-        margin: 0em;
-      }
-      #locations-panel-list .location-result p.school {
-        font-size: 0.9em;
-        margin-bottom: 0em;
-        font-weight: 500;
-      }
->>>>>>> origin/bria
     </style>
     <script>
       'use strict';
@@ -516,11 +476,7 @@
         // Set up Autocomplete on the search input. Bias results to map viewport.
         const autocomplete = new google.maps.places.Autocomplete(searchInputEl, {
           types: ['geocode'],
-<<<<<<< HEAD
           fields: ['place_id','formatted_address', 'geometry.location']
-=======
-          fields: ['place_id', 'formatted_address', 'geometry.location']
->>>>>>> origin/bria
         });
         autocomplete.bindTo('bounds', locator.map);
         autocomplete.addListener('place_changed', function() {
@@ -578,15 +534,9 @@
         };
       }
     </script>
-<<<<<<< HEAD
     <script>
       const CONFIGURATION = {
         "locations": [
-=======
-     <script>
-        const CONFIGURATION = {
-            "locations": [
->>>>>>> origin/bria
           {"title":"Jamie Brooks","dept":"Certified Financial Tutor","school":"Ardery Kell High School","email":"Jamie@tutorscout.com","address1":"10220 Ardrey Kell Rd","address2":"Charlotte, NC 28277, USA","coords":{"lat":35.030173254736944,"lng":-80.82727367976227},"placeId":"ChIJHQExh7mCVogR00nm3gRllGA"},
           {"title":"Tanya Branham","dept":"Certified Financial Tutor","school":"Phillip O. Berry Academy of Technology","email":"Tanya@tutorscout.com","address1":"1430 Alleghany St","address2":"Charlotte, NC 28208, USA","coords":{"lat":35.23954561643015,"lng":-80.89170790859833},"placeId":"ChIJzQsP3fOhVogRG3jJdgSx2CY"},
           {"title":"Vincent Golden","dept":"Certified Financial Tutor","school":"Butler High School","email":"Vincent@tutorscout.com","address1":"1810 Matthews-Mint Hill Rd","address2":"Matthews, NC 28105, USA","coords":{"lat":35.12107261069046,"lng":-80.69114492209013},"placeId":"ChIJ1_hw0okjVIgRUyJlYEMu8W8"},
@@ -600,7 +550,6 @@
           {"title":"Jennifer Dean","dept":"Certified Financial Tutor","school":"Mallard Creek High School","email":"Jennifer@tutorscout.com","address1":"3825 Johnston Oehler Rd","address2":"Charlotte, NC 28269, USA","coords":{"lat":35.36434706470991,"lng":-80.76897137976228},"placeId":"ChIJQx6peB8dVIgRJV-mikFitm4"},
           {"title":"Robert Folk","dept":"Certified Financial Tutor","school":"Myers Park High School","email":"Robert@tutorscout.com","address1":"2400 Colony Rd","address2":"Charlotte, NC 28209, USA","coords":{"lat":35.17028058184135,"lng":-80.83240976627044},"placeId":"ChIJFUaA8zWeVogRI2dUOMBS0uc"}
         ],
-<<<<<<< HEAD
         "mapOptions": {"center":{"lat":38.0,"lng":-100.0},"fullscreenControl":true,"mapTypeControl":false,"streetViewControl":false,"zoom":4,"zoomControl":true,"maxZoom":17},
         "mapsApiKey": "AIzaSyBqd854vFdegv4mi5BPARHWqXBtccg1tPg",
         "capabilities": {"input":true,"autocomplete":true,"directions":false,"distanceMatrix":true,"details":false}
@@ -628,36 +577,6 @@
     </script> 
   </head>
   <body>
-=======
-          "mapOptions": {"center":{"lat":38.0,"lng":-100.0},"fullscreenControl":true,"mapTypeControl":false,"streetViewControl":false,"zoom":4,"zoomControl":true,"maxZoom":17},
-          "mapsApiKey": "AIzaSyBqd854vFdegv4mi5BPARHWqXBtccg1tPg",
-          "capabilities": {"input":true,"autocomplete":true,"directions":false,"distanceMatrix":true,"details":false}
-        };
-  
-        function initMap() {
-          new LocatorPlus(CONFIGURATION);
-        }
-      </script>
-      <script id="locator-result-items-tmpl" type="text/x-handlebars-template">
-        {{#each locations}}
-          <li class="location-result" data-location-index="{{index}}">
-            <button class="select-location">
-              <h2 class="name">{{title}}</h2>
-            </button>
-            <div>
-            <p class="dept">{{dept}}</p>
-            <p class="email">{{email}}</p>
-            <p class="school">{{school}}</p>
-            <div class="address">{{address1}}<br>{{address2}}</div>
-            {{#if travelDistanceText}}
-              <div class="distance">{{travelDistanceText}}</div>
-            {{/if}}
-          </li>
-        {{/each}}
-      </script> 
-    </head>
-    <body>
->>>>>>> origin/bria
       <!---Nav Bar-->
         <nav>
             <div class="nav-links">
