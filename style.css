@@ -13,6 +13,7 @@ body {
 * {
   margin: 0px;
   padding: 0px;
+}
 
 /* Navigation Bar */
 
@@ -68,16 +69,8 @@ h1,
 h2 {
   margin: 0;
   padding: 1em 0;
-<<<<<<< HEAD
-  font-family: "raleway";
-=======
   font-family: 'Pacifico', cursive;
-<<<<<<< HEAD
->>>>>>> origin/bria
-  font-size: 50px;
-=======
   font-size: 35px;
->>>>>>> origin/bria
 }
 
 h3 {
