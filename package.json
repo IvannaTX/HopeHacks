@@ -2,9 +2,9 @@
   "name": "hope_hacks",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "JS/server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "nodemon JS/server.js",
     "dev": "npx nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
