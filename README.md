@@ -1,2 +1,1 @@
 # HopeHacks
-Tutor $cout
