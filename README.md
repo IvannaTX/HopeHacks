@@ -1,7 +1,4 @@
 # HopeHacks
-<<<<<<< HEAD
-Tutor $cout
-=======
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -98,4 +95,3 @@ MIT © [Tutor Scout]()
 
 
 
->>>>>>> origin/Guillian
