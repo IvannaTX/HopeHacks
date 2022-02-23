@@ -84,6 +84,8 @@ Tutor Scout - [@scout_tutor](https://twitter.com/scout_tutor) - hello@tutorscout
 
 Project Link: [https://github.com/IvannaTX/HopeHacks.git](https://github.com/IvannaTX/HopeHacks.git)
 
+Deployed Project Link:[Ivanna.d3f2g4ycf7ve1v.amplifyapp.com](Ivanna.d3f2g4ycf7ve1v.amplifyapp.com)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
