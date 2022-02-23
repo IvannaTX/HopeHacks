@@ -1,4 +1,3 @@
-
 # HopeHacks
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -91,7 +90,3 @@ Project Link: [https://github.com/IvannaTX/HopeHacks.git](https://github.com/Iva
 ## License
 
 MIT © [Tutor Scout]()
-
-
-
-
