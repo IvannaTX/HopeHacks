@@ -23,7 +23,7 @@ a database that lists tutors with nearest highschool location and contact inform
 
 A simple example on how to find a financial tutor with [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation) and display it on a map with [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/). Checkout the demo [here](https://google-maps-geolocation.bitballoon.com/).
 
-![Google Maps Geolocation Example](img/imageofapi.jpeg)
+![Google Maps Geolocation Example](public/img/imageofapi.jpeg)
 
 ### Prerequisites
 
